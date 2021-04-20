@@ -1,6 +1,34 @@
 # Reading
+<br>
+<br>
+<br>
+<br>
+<br>
 ### Week 01
+#### “Programming Design Systems” by Rune Madsen
+##### "There is no reason for the design process to end with the birth of a product"
+I personally like this statement and agree with it. There is always possiblities for the design to iterate or evolve because of various reasons, so as to adapt to new context, needs, users etc.
+##### "Code allows designers to not just create designs, but build digital systems that create designs."
+This reminds me a discussion that if digital tools, such as code here, would kill the creativity of designers and arts. For me, I agree that digital tools does make the design outcome more predictable. I also personally appreciate the handdrawing works, which always bring me more surprise. However, I do not think that being more predictable means less creativity. Code is a tool just like the pencil at the hand of designer. Creative or not still depends on the designer. Moreover, with an alternative way or tool for us to create design, I believe that there would be more possibilities and creativity.
+<br>
+<br>
+<br>
+<br>
+<br>
 ### Week 02
+#### "You look like a thing and I love you" by Janelle Shane
+##### "The tench AI’s finger-finding trick would help it identify trophy fish in human hands, but it was going to be ill prepared when looking for the fish in the wild."
+This is so interesting. I am very curious what would happen if the tench AI was trained by images taken in the wild, rather than trophy fish in human hands, at the first. Would it still be ill prepared? In turn, is it able to recognize a trophy fish not in the wild, such as in human hands? I feel the "brain" of AI actually is quite different with ours, which means we learn and think differently. Therefore, it might be unreasonable to regard it as "intelligence" and simply trained it in the way which is effective for human.
+##### "The common thread seems to be that if data comes from humans, it will likely have bias in it."
+##### "Since humans tend to be biased, the algorithms that learn from them will also tend to be biased unless humans take extra care to find and remove the bias."
+If so, it seems that it is never possible to remove the data bias. As long as there are differences, there would be bias. But differences in data are objective while bias are subjective. Instead of pursuing remove bias, how about to look at data differences from an objective and scientific perspective?
+##### "People treat these kinds of algorithms as if they are making recommendations, but it’s a lot more accurate to say that they’re making predictions. They’re not telling us what the best decision would be—they’re just learning to predict human behavior."
+This is kind of suprising for me but I am glad to learn it. It is so easy for people like me to misundertood AI, regarding it as super smart, at least smarter than human. But actually the ability to computate large amounts of datasets does not guarantee "intelligence".
+<br>
+<br>
+<br>
+<br>
+<br>
 ### Week 03
 #### "Notes on Failure" by Joyce Carol Oates & AI Ethics Case Studies
 ##### "the genius cannot know that he is a genius - not really: he has hopes, he has premonitions, he suffers raging paranoid doubts, but he can have, in the end, only himself for measurement."
