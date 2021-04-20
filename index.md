@@ -24,7 +24,8 @@ I do not think it is possible to develop a categorization schema that did not of
 
 
 
-## Project 02 - 
+## Project 02 - Rate My Setup
+![3061618934670_ pic_hd](https://user-images.githubusercontent.com/77864885/115428627-6e818080-a1b7-11eb-928f-9ac4574f5469.jpg)
 
 
 ## Project 03 - Making Space
