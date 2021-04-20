@@ -22,7 +22,6 @@ I do not think it is possible to develop a categorization schema that did not of
 
 ![3021618925402_ pic_hd](https://user-images.githubusercontent.com/77864885/115404323-1429f500-a1a2-11eb-8e99-640e00b86b7e.jpg)
 
-https://user-images.githubusercontent.com/77864885/115426509-6b859080-a1b5-11eb-8e3b-5a1f27128501.mp4
 
 
 ## Project 02 - 
@@ -42,3 +41,5 @@ https://user-images.githubusercontent.com/77864885/115426509-6b859080-a1b5-11eb-
 ![2981618925192_ pic_hd](https://user-images.githubusercontent.com/77864885/115404757-7b47a980-a1a2-11eb-861a-72f078a3875d.jpg)
 
 ![2991618925194_ pic_hd](https://user-images.githubusercontent.com/77864885/115404786-80a4f400-a1a2-11eb-90be-8fc7a138ff53.jpg)
+
+
