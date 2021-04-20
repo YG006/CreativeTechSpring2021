@@ -59,8 +59,6 @@ I do not think it is possible to develop a categorization schema that did not of
 <br>
 <br>
 <br>
-<br>
-<br>
 ### 01 Rube Goldberg Machine
 ![2901618924461_ pic_hd](https://user-images.githubusercontent.com/77864885/115404083-d6c56780-a1a1-11eb-908e-7d99f57596bf.jpg)
 
