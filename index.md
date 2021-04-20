@@ -50,6 +50,20 @@ I do not think it is possible to develop a categorization schema that did not of
 <br>
 <br>
 <br>
+### Week 04
+#### "A Brief Visit to the Systems Zoo" from Thinking in Systems by Donella H. Meadows
+<br>
+##### "Part of the problem here is that the car dealer has been reacting not too slowly, but too quickly. Given the configuration of this system, she has been overreacting. Things would go better if, instead of decreasing her response delay from three days to two, she would increase the delay from three days to six"
+This is interesting that faster reaction does not always mean better. When we come up with delays in an system, the first thought is usually to reduce the reaction time as much as possible. But when integrate the dimension of time, the situation is not linear anymore. It is also a nice example for "thinking in a bigger picture", not only to extend the scale of the system, but also to extend the dimension.
+##### "Dynamic systems studies usually are not designed to predict what will happen. Rather, they’re designed to explore what would happen, if a number of driving factors unfold in a range of different ways"
+I like the saying that it is not designed to predict what will happen, but to explore what would happen. I would be cautious about anlysising and predicting. Because the systems are growing and evolving rather than stay static. Moreover, the system in real life is much more complicated than the theoretical model, which is unavoid to be simplified in some way. There are always unexpected factors and outcomes. But I personally enjoy the unpredictability.
+##### "In many real economies based on real renewable resources—as opposed to this simple model—the very small surviving population retains the potential to build its numbers back up again, once the capital driving the harvest is gone. The whole pattern is repeated, decades later."
+This reminds me the cyclicity of the Great Depression. This is interesting that the general system tends to repeat the pattern no matter how the system may change in micro scale. And it seems that it is hardly possible for us to escape from it even though we have realized it.
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
