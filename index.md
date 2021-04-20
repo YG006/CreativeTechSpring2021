@@ -1,7 +1,8 @@
 # Reading
 ### Week 01
 ### Week 02
-### Week 03 "Notes on Failure" by Joyce Carol Oates & AI Ethics Case Studies
+### Week 03
+### "Notes on Failure" by Joyce Carol Oates & AI Ethics Case Studies
 #### "the genius cannot know that he is a genius - not really: he has hopes, he has premonitions, he suffers raging paranoid doubts, but he can have, in the end, only himself for measurement."
 It reads poetic. For me, I think it is not just about the genius, but also everyone. Everyone has moments of doubt or self-doubt. We will feel failure at these moments. If we take the emotion out of it, describing “failure” more objectively, it is more of our cognition of the current position: a position that is some distance from an ideal goal. It is not negative or positive, just an objective situation. But it is nice to realize our situation, which makes us to reflect and look for the reasons, alternative paths, new goals that lead/block us towards the ideal destination. Then we can take actions based on it and progress. As long as we doubt, or have higher goals, we will put ourselves in such a position, which is not failure, just a destination has not yet arrived.
 
