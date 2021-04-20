@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderful Day</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+</head>
+<body>
+    <header></header>
+
+    <main>
+      <p id="projectName">A Wonderful Workday</p>
+
+      <button onclick="authenticate().then(loadClient)" id="authButton" class="buttons">authorize</button>
+      <button onclick="execute()" id="exeButton" class="buttons" style="visibility: hidden">get all work messages</button>
+
+      <a href="draw.html" id="sketchLink" style="visibility: hidden"><button class="buttons">sketch</button></a>
+    </main>
+
+    <!-- scripts -->
+
+    <script>
+        /* Sample JavaScript code for drive.files.list
+         * See instructions for running APIs Explorer code samples locally:
+         * https://developers.google.com/explorer-help/guides/code_samples#javascript
+         */
+
+        // Googel Drive API Client INFO: https://console.cloud.google.com/apis/api/drive.googleapis.com/credentials?authuser=0&project=quickstart-1612387234441
+        // Client ID: 407693662546-8se1epph8pcvkg35ai2ql06haphm1ijv.apps.googleusercontent.com
+        // Client API key: AIzaSyDM2RnU2CJeVt30p_ni483y1xwbemQqjFU
+
+        /* open browser:
+        * open terminal, navigate to working directory
+        * if Python 2.x: python -m SimpleHTTPServer 8000
+        * if Python 3.x: python -m http.server 8000
+        * open the URL http://localhost:8000 in your browser
+        */
+
+        var YOUR_CLIENT_ID = '407693662546-8se1epph8pcvkg35ai2ql06haphm1ijv.apps.googleusercontent.com';
+        var YOUR_API_KEY = ''; //no need to put API KEY here
+        var sentence = "";
+
+        function authenticate() {
+            document.getElementById("authButton").style.backgroundColor = "#bbbbbb";
+            document.getElementById("exeButton").style.visibility = "visible";
+            return gapi.auth2.getAuthInstance()
+            .signIn({scope: "https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file"})
+            .then(function() { console.log("Sign-in successful"); },
+            function(err) { console.error("Error signing in", err); });
+
+        }
+        function loadClient() {
+            gapi.client.setApiKey(YOUR_API_KEY);
+            return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/drive/v3/rest")
+            .then(function() { console.log("GAPI client loaded for API"); },
+            function(err) { console.error("Error loading GAPI client for API", err); });
+        }
+        // Make sure the client is loaded and sign-in is complete before calling this method.
+        function execute() {
+            return gapi.client.drive.files.list({})
+            .then(function(response) {
+                // Handle the results here (response.result has the parsed body).
+                console.log("Response", response);
+                displayMessage(response);
+                document.getElementById("exeButton").style.backgroundColor = "#bbbbbb";
+                document.getElementById("sketchLink").style.visibility = "visible";
+            },
+            function(err) { console.error("Execute error", err); });
+        }
+        gapi.load("client:auth2", function() {
+            gapi.auth2.init({client_id: YOUR_CLIENT_ID});
+        });
+
+        function displayMessage(response){
+          let txts = [];
+          // let ft;
+          // let sentence = "";
+          let images = "";
+          console.log(response.result.files);
+          let fileList = response.result.files;
+
+          for (let i = 0; i < fileList.length; i++) {
+            let webLink = "http";
+            if (fileList[i].name.includes(webLink)) {
+                      if (fileList[i].name.includes("Shiny Wu")) {
+                        let newName = fileList[i].name.replace("Shiny Wu", "");
+                        images += newName + " ";
+                      } else if (fileList[i].name.includes("Kinako")) {
+                        let newName = fileList[i].name.replace("Kinako", "");
+                        images += newName + " ";
+                      } else if (fileList[i].name.includes("JCarry")) {
+                        let newName = fileList[i].name.replace("JCarry", "");
+                        images += newName + " ";
+                      }
+              //images += fileList[i].name;
+            } else {
+              sentence += fileList[i].name + " | ";
+            }
+          }
+          console.log("all texts: ", sentence);
+          console.log("all images: ", images);
+
+          splitImgLinks = images.split(" ");
+          console.log(splitImgLinks);
+
+          localStorage.setItem("sentenceStorage", sentence);
+          console.log("storage: ", localStorage.getItem("sentenceStorage"));
+          localStorage.setItem("imgStorage", splitImgLinks);
+          console.log("storage: ", localStorage.getItem("imgStorage"));
+        }
+
+
+
+    </script>
+
+</body>
+</html>

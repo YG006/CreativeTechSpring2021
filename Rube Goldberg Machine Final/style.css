@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'MyFont';
+  src:  url('framd.ttf') format('woff2'),
+        url('framd.ttf') format('woff');
+}
+
+
+body{
+    display :flex;
+    flex-direction: column;
+    margin: 8%;
+    font-family: sans-serif;
+    background-color: #eeeeee;
+}
+
+#projectName{
+  font-size: 100px;
+  /* font-family: Serif; */
+  font-family: "MyFont";
+  background-image: linear-gradient(to right, #108dc7, #ef8e38);
+  -webkit-linear-gradient(to right, #108dc7, #ef8e38);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.buttons{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 1em;
+    margin-left: 0;
+}
+
+.buttons:hover {background-color: #bbbbbb}
+
+.buttons:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.chatImgs{
+  position: absolute;
+}
