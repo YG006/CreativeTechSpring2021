@@ -7,10 +7,10 @@
 <br>
 <br>
 <br>
-<br>
-<br>
+
 ### Week 01
 #### “Programming Design Systems” by Rune Madsen
+<br>
 ##### "There is no reason for the design process to end with the birth of a product"
 I personally like this statement and agree with it. There is always possiblities for the design to iterate or evolve because of various reasons, so as to adapt to new context, needs, users etc.
 ##### "Code allows designers to not just create designs, but build digital systems that create designs."
@@ -22,6 +22,7 @@ This reminds me a discussion that if digital tools, such as code here, would kil
 <br>
 ### Week 02
 #### "You look like a thing and I love you" by Janelle Shane
+<br>
 ##### "The tench AI’s finger-finding trick would help it identify trophy fish in human hands, but it was going to be ill prepared when looking for the fish in the wild."
 This is so interesting. I am very curious what would happen if the tench AI was trained by images taken in the wild, rather than trophy fish in human hands, at the first. Would it still be ill prepared? In turn, is it able to recognize a trophy fish not in the wild, such as in human hands? I feel the "brain" of AI actually is quite different with ours, which means we learn and think differently. Therefore, it might be unreasonable to regard it as "intelligence" and simply trained it in the way which is effective for human.
 ##### "The common thread seems to be that if data comes from humans, it will likely have bias in it."
@@ -36,6 +37,7 @@ This is kind of suprising for me but I am glad to learn it. It is so easy for pe
 <br>
 ### Week 03
 #### "Notes on Failure" by Joyce Carol Oates & AI Ethics Case Studies
+<br>
 ##### "the genius cannot know that he is a genius - not really: he has hopes, he has premonitions, he suffers raging paranoid doubts, but he can have, in the end, only himself for measurement."
 It reads poetic. For me, I think it is not just about the genius, but also everyone. Everyone has moments of doubt or self-doubt. We will feel failure at these moments. If we take the emotion out of it, describing “failure” more objectively, it is more of our cognition of the current position: a position that is some distance from an ideal goal. It is not negative or positive, just an objective situation. But it is nice to realize our situation, which makes us to reflect and look for the reasons, alternative paths, new goals that lead/block us towards the ideal destination. Then we can take actions based on it and progress. As long as we doubt, or have higher goals, we will put ourselves in such a position, which is not failure, just a destination has not yet arrived.
 ##### "Charlie is projecting values and life choices that they, themselves, may not necessarily endorse."
